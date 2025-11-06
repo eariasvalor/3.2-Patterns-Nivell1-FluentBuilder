@@ -57,7 +57,6 @@ public class Pizza {
     @Override
     public String toString() {
         return "Pizza{" +
-                "type=" + type.name() +
                 "size=" + size.name() +
                 ", dough='" + dough.name() + '\'' +
                 ", toppings=" + getToppings() +
