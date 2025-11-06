@@ -25,6 +25,8 @@ public class Main {
                 .build();
 
         System.out.println(margherita);
-
+        System.out.println(parmiggiana);
+        System.out.println(prosciuttoEFunghi);
+        System.out.println(customPizza);
     }
 }
