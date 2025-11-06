@@ -1,8 +1,9 @@
 package fluentpizzabuilder;
 
-import pizzabuilder.enums.DoughType;
-import pizzabuilder.enums.PizzaType;
-import pizzabuilder.enums.SizeType;
+
+import fluentpizzabuilder.enums.DoughType;
+import fluentpizzabuilder.enums.PizzaType;
+import fluentpizzabuilder.enums.SizeType;
 
 import java.util.ArrayList;
 import java.util.Collections;
