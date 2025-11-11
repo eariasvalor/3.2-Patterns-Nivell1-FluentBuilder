@@ -15,7 +15,9 @@ public class Pizza {
     private DoughType dough;
     private List<String> toppings = new ArrayList<>();
 
-    public Pizza(){};
+    public Pizza(){
+        this.toppings = new ArrayList<>();
+    };
 
     public Pizza(PizzaType type, SizeType size, DoughType dough, List<String> toppings) {
         this.type = type;
