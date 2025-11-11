@@ -1,4 +1,4 @@
-package fluentpizzabuilder;
+package fluentpizzabuilder.entity;
 
 
 import fluentpizzabuilder.enums.DoughType;
@@ -13,7 +13,7 @@ public class Pizza {
     private PizzaType type;
     private SizeType size;
     private DoughType dough;
-    private List<String> toppings;
+    private List<String> toppings = new ArrayList<>();
 
     public Pizza(){};
 
@@ -21,7 +21,7 @@ public class Pizza {
         this.type = type;
         this.size = size;
         this.dough = dough;
-        this.toppings = new ArrayList<>();
+        this.toppings = toppings;
     }
 
     public String getType(){

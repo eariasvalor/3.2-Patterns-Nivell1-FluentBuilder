@@ -1,10 +1,12 @@
-package fluentpizzabuilder;
+package fluentpizzabuilder.Builders;
 
 
+import fluentpizzabuilder.Interface.PizzaBuilder;
+import fluentpizzabuilder.entity.Pizza;
 import fluentpizzabuilder.enums.DoughType;
 import fluentpizzabuilder.enums.SizeType;
 
-public abstract class BasePizzaBuilder<T extends BasePizzaBuilder<T>> implements PizzaBuilder {
+public abstract class BasePizzaBuilder<T extends BasePizzaBuilder<T>> implements PizzaBuilder<T> {
     protected Pizza pizza = new Pizza();
 
     protected abstract T self();

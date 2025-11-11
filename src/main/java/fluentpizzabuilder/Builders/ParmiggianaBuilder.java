@@ -1,4 +1,4 @@
-package fluentpizzabuilder;
+package fluentpizzabuilder.Builders;
 
 public class ParmiggianaBuilder extends BasePizzaBuilder<ParmiggianaBuilder> {
     @Override
