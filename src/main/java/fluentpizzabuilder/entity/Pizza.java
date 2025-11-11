@@ -28,12 +28,12 @@ public class Pizza {
         return type.name();
     }
 
-    public String getSize() {
-        return size.name();
+    public SizeType getSize() {
+        return this.size;
     }
 
-    public String getDough() {
-        return dough.name();
+    public DoughType getDough() {
+        return this.dough;
     }
 
     public List<String> getToppings(){
