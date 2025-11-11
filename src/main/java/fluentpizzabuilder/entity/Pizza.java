@@ -20,6 +20,10 @@ public class Pizza {
     };
 
     public Pizza(PizzaType type, SizeType size, DoughType dough, List<String> toppings) {
+        if(type == null) {throw new IllegalArgumentException("The pizza type cannot be null.");}
+        if(size == null) {throw new IllegalArgumentException("The pizza size cannot be null.");}
+        if(dough == null) {throw new IllegalArgumentException("The pizza dough cannot be null.");}
+        if(toppings == null) {throw new IllegalArgumentException("The toppings list cannot be null.");}
         this.type = type;
         this.size = size;
         this.dough = dough;
