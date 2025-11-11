@@ -1,4 +1,4 @@
-package fluentpizzabuilder;
+package fluentpizzabuilder.Builders;
 
 
 public class ProsciuttoEFunghiBuilder extends BasePizzaBuilder<ProsciuttoEFunghiBuilder> {
